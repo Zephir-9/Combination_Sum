@@ -1,7 +1,8 @@
-import java.util.Scanner;
+package CombSum;
 
+import java.util.Scanner;
 public class Main {
-    static CombSumService combSumService;
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -18,6 +19,6 @@ public class Main {
         System.out.print("Enter target number: ");
         int target = input.nextInt();
 
-        System.out.print(combSumService.combinationSum2(candidates, target));
+        System.out.print(CombSumService.combinationSum2(candidates, target));
     }
 }
