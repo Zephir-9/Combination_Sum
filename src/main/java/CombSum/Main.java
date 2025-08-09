@@ -10,7 +10,7 @@ public class Main {
         int size = input.nextInt();
         int[] candidates = new int[size];
 
-        System.out.print("Enter " + size + " candidates");
+        System.out.print("Enter " + size + " candidates\n");
         for(int i = 0; i<size; i++) {
             System.out.print("Enter element " + (i + 1) + ": ");
             candidates[i] = input.nextInt();
